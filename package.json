@@ -1,0 +1,27 @@
+{
+    "name": "portafoliowebcarozo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build-sass": "node-sass --include-path scss sass/index.scss css/estilo.css",
+        "watch-sass": "nodemon -e scss -x \"npm run build-sass\""
+
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ValCarozo/PortafolioWebCarozoPreentega.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ValCarozo/PortafolioWebCarozoPreentega/issues"
+    },
+    "homepage": "https://github.com/ValCarozo/PortafolioWebCarozoPreentega#readme",
+    "devDependencies": {
+        "node-sass": "^7.0.1",
+        "nodemon": "^2.0.15"
+    }
+}
